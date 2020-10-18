@@ -1,5 +1,5 @@
 var LoginPageMethods = require("../../pages/pageMethods/LoginPage.js");
-var HomePageMethods = require("../../pages/pageMethods/HomePage.js")
+
 var data = require("../../resources/Data.json")
 
 describe('Login Page Test Cases : ', function () {
