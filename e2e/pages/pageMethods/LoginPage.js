@@ -24,6 +24,7 @@ var LoginPage = function () {
         await sync.isElementVisible(loginLocators.LoginPassword, waitTimeOuts.shortWait);
         await loginLocators.LoginPassword.sendKeys(password);
         await loginLocators.LogInButton.click();
+        await sync.captureScreenshot("login");
     }
 
     this.isLoginSuccessful = async function(){
