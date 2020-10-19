@@ -36,7 +36,7 @@ exports.config = {
     },
 
     specs: ['e2e/specs/regression-tests/LoginTestsSpec.js',
-    //'e2e/specs/regression-tests/LocationTestsSpec.js'
+    'e2e/specs/regression-tests/LocationTestsSpec.js'
     ],
 
     params: {
