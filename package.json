@@ -6,7 +6,7 @@
   "scripts": {
     "webdriver-start": "webdriver-manager update && webdriver-manager start",
     "protractor1": "wait-on http-get://127.0.0.1:4444/ && protractor conf.js --suite smoke",
-    "protractor2": "wait-on http-get://127.0.0.1:4444/ && protractor conf.js --suite regression",
+    "protractor2": "wait-on http-get://127.0.0.1:4444/ &&  protractor conf.js --suite regression",
     "smoke-test": "npm-run-all -p -r webdriver-start protractor1",
     "regression-test": "npm-run-all -p -r webdriver-start protractor2"
 
