@@ -23,7 +23,7 @@ The purpose of the project is to display Keyword driven framework for web applic
 ## Project Structure
 
 <p align="center">
-<img width="250" height="200" src="Image/frameworkstructure.png"><br />
+<img width="250" height="250" src="Image/frameworkstructure.png"><br />
 </p>
 
 * Drivers:-
