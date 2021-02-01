@@ -20,6 +20,12 @@ The purpose of the project is to display Keyword driven framework for web applic
 * SCM: AzureDevops & Github
 * Build Tool: Jenkins & AzureDevOps
 
+## How it works? Framework Architecture
+
+<p align="center">
+<img width="250" height="250" src="Image/archietcure.png"><br />
+</p>
+
 ## Project Structure
 
 <p align="center">
