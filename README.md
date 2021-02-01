@@ -1,5 +1,5 @@
 <p align="center">
-<img width="1000" height="250" src="Image/protractor-jasmine.png">
+<img width="1000" height="200" src="Image/protractor-jasmine.png">
 </p>
 
 # Behavior Driven-Protractor-Jasmine in Javascript
