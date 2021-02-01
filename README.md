@@ -4,7 +4,7 @@
 
 # Behavior Driven-Protractor-Jasmine in Javascript
 
-The purpose of the project is to display Keyword driven framework for web applications using SeleniumLibrary in Robotframework.
+The purpose of the project is to display behavior driven framework for web applications using Protractor-Jasmine. Its one of widely used framework for front-end developed using JS libraries like Angular, React.js etc. 
 
 ## Tools & Technologies
 
