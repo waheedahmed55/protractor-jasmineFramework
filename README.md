@@ -23,7 +23,7 @@ The purpose of the project is to display Keyword driven framework for web applic
 ## How it works? Framework Architecture
 
 <p align="center">
-<img width="500" height="250" src="Image/archietcure.png"><br />
+<img width="700" height="250" src="Image/archietcure.png"><br />
 </p>
 
 * **What is Protractor?**
@@ -54,32 +54,32 @@ Application will be any web app, could be angular or non-angular application.
 <img width="250" height="250" src="Image/frameworkstructure.png"><br />
 </p>
 
-* Drivers:-
+* **Drivers:-**
 In this folder we will keep the chrome driver executable to launch the chrome browser. 
   
-* Pages :-
+* **Pages :-**
 In this folder we will have page locators’ files and one Helper Method file.
 
-	+ Page Locators: In protractor, we will create the Page Object Modal class to develop and store the re-
+	+ **Page Locators:** In protractor, we will create the Page Object Modal class to develop and store the re-
 usable methods. These methods are nothing, but Page ObjectsPage Objects are nothing, but web elements present on the web page like Buttons, links, tabs, text bars. We have to create page object class for every page present in the application if the application is single page application (spa) we haveto create page object classes for each tab. Page Object class contains all the page object(web elements) for a particular page. For every page present application, we have to write the Page Object class.
 
-	+ Page Method: In this file we will create all the helper methods which will help in accessing the page
+	+ **Page Method:** In this file we will create all the helper methods which will help in accessing the page
 objects this is done in order to keep the code clean and readable and to achieve the reusability.
 
-* Resources :-
+* **Resources :**-
 Under this resources folder we will create testData.json which will hold data for any test cases , this to done to keep code clean and ensure code is readable also centralized the data incase if get changed we will have to change just here.
 
-* Specs/Scripts:-
+* **Specs/Scripts:**-
 In this folder we will have folder each with respective testing for example Functional folder will have functional test scripts, Regression will have regression-based scripts, and finally smoke will have smoke test case scripts. 
 
-* Utilities::-
+* **Utilities:-**
 Under this folder we have custom libraries or helper functions to help in various operations like synchronization and last but no least setting waits.
 
-* Package.json:-
+* **Package.json:-**
 This file contains the setyp of how to run scripts and as well all packages required in order to run test cases are added in it for protability. This allows anyone new to quickly
 get started on the framework using simple command like 'npm install' 
 
-* Conf.js:-
+* **Conf.js:-**
 This file contains configuration of framework like link to test scripts, prepartion of test reports etc.
 
 # How to Setup & Run the project:-
