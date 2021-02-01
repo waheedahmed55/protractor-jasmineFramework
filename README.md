@@ -23,28 +23,28 @@ The purpose of the project is to display Keyword driven framework for web applic
 ## How it works? Framework Architecture
 
 <p align="center">
-<img width="400" height="250" src="Image/archietcure.png"><br />
+<img width="500" height="250" src="Image/archietcure.png"><br />
 </p>
 
-* What is Protractor?
+* **What is Protractor?**
 Protractor is implemented over webdriverJS and webdriverJS is built on webdriver.
 
-* What is NodeJS?
+* **What is NodeJS?**
 NodeJs is the basic platform on which all the node modules are built, so NodeModules contributes the code in Protractor.
 
-* What is Jasmine?
+* **What is Jasmine?**
 Jasmine is a Unit testing frameworks tool which support behavior-driven development. It can be used for testing other frameworks like protractor using JavaScript/TypeScript.
 
-* What is TestScript?
+* **What is TestScript?**
 Test scripts will have all the test case which are created using the Protractor and Jasmine
 
-* What is selenium-standalone server?
+* **What is selenium-standalone server?**
 This will convert all the commands from the protractor as API commands and sends it to the browser.
 
-* What is JSON wire Protocol?
+* **What is JSON wire Protocol?**
 It is the bridge between the browser and the protractor.
 
-* What is Browser?
+* **What is Browser?**
 Browser could be any like chrome, firefox, Edge
 Application will be any web app, could be angular or non-angular application.
 
