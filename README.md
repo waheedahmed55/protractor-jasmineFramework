@@ -2,7 +2,7 @@
 <img width="950" height="250" src="Image/protractor-jasmine.png">
 </p>
 
-# Keyword Driven-Robotframework SeleniumLibrary in Python
+# Behavior Driven-Protractor-Jasmine in Javascript
 
 The purpose of the project is to display Keyword driven framework for web applications using SeleniumLibrary in Robotframework.
 
@@ -32,10 +32,10 @@ In this folder we will keep the chrome driver executable to launch the chrome br
 * Pages :-
 In this folder we will have page locators’ files and one Helper Method file.
 
-Page Locators: In protractor, we will create the Page Object Modal class to develop and store the re-
+	+ Page Locators: In protractor, we will create the Page Object Modal class to develop and store the re-
 usable methods. These methods are nothing, but Page ObjectsPage Objects are nothing, but web elements present on the web page like Buttons, links, tabs, text bars. We have to create page object class for every page present in the application if the application is single page application (spa) we haveto create page object classes for each tab. Page Object class contains all the page object(web elements) for a particular page. For every page present application, we have to write the Page Object class.
 
-Page Method: In this file we will create all the helper methods which will help in accessing the page
+	+ Page Method: In this file we will create all the helper methods which will help in accessing the page
 objects this is done in order to keep the code clean and readable and to achieve the reusability.
 
 * Resources :-
